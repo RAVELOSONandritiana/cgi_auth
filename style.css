@@ -1,0 +1,37 @@
+body{
+    background-size: cover;
+    background-color: grey;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    width: 50vw;
+    background: linear-gradient(to right bottom,green,red);
+    overflow: hidden;
+    box-shadow: 3vw 3vw 2vw grey;
+    transform: translate(50%,60%);
+}
+#search{
+    height: 5vw;
+    width: 20vw;
+    font-size: 2vw;
+}
+#seacrh:focus{
+    background-color: red;
+}
+#search::first-letter{
+    color:red;
+}
+#but{
+    height: 5.5vw;
+    width: 23vw;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: 2s;
+    
+}
+#but:hover{
+    background-color: blue;
+}
